@@ -19,7 +19,7 @@
 #include "mongoose.h"
 
 #define WS_LOCAL_SERVER_URL "ws://localhost:20000"
-#define REMOTE_SERVER_URL "wss://echo.websocket.org/web1"
+#define REMOTE_SERVER_URL "wss://echo.websocket.org"
 
 struct context {
     struct mg_mgr *mgr = NULL;
